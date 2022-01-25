@@ -1,0 +1,136 @@
+
+/* ------------------------0 RESET--------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* -----------------------------1 LAYOUT--------------------------------------*/
+body{
+    text-align: center;
+    font: 300 20px/1.7 'Roboto Condensed';
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0e5ca4
+}
+.inicio{
+    color: #fff;
+    text-decoration: none;
+    font: 300 23px/2.5 'Roboto Condensed';
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #266cad;
+}
+.list-hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-SoP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto{
+    font: 300 23px/1.5 'Roboto Condensed';
+}
+
+/* -------------------------2 GENERIC ITEMS-----------------------------------*/
+.header{
+    /* height: 100vh; */
+    height: 250px;
+}
+.inicio{
+    background: #0e5ca4
+}
+.navbar{
+    height: 70px;
+    background: #266cad;
+    border-bottom: 1px dashed #266cad;
+}
+.navbar a{
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 300 20px/3.5 'Roboto Condensed';
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/* -------------------------3 PARTS OF WEB----------------------------------- */
+.content{
+    padding: 50px 0;
+}
+.hobbies{
+    background: #3e7db6;
+    color: #fff;
+}
+.SoP{
+    background: #568dbf;
+    color: #fff;
+}
+.contacto{
+    background: #6e9dc8;
+    color: #fff;
+}
+
+/* ------------------------------3 LIST-------------------------------------- */
+.list-hobbies li{
+    padding: 0 50px;
+
+}
+.list-SoP li{
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
